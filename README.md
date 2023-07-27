@@ -20,7 +20,9 @@ This project is intended to be an extension to my capstone. I'm taking it one st
 ## Planned Next Steps
 
 Dataflow Pipeline: This pipeline will clean the data and combine data from other sources like ride metadata, park metadata and more.
+
 Looker Dashboard: This will be a user friendly view of current wait times, historical wait times and predictions.
+
 Machine Learning Model: This model will predict wait times to help theme park guests plan their day efficiently.
  
  [Powered by Queue-Times.com](https://queue-times.com/en-US)
