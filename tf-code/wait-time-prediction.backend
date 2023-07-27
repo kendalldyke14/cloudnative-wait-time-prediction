@@ -1,0 +1,3 @@
+bucket = "waittimes-dev-tf-state"
+prefix = "static.tfstate.d"
+impersonate_service_account = "sa-waittimes-tf-dev@wait-time-prediction-dev.iam.gserviceaccount.com"

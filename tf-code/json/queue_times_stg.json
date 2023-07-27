@@ -1,0 +1,44 @@
+[
+    {
+      "name": "id",
+      "type": "INT64",
+      "mode": "REQUIRED",
+      "description": "ID associated with ride"
+    },
+    {
+        "name": "name",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Name of ride"
+    },
+    {
+        "name": "is_open",
+        "type": "BOOL",
+        "mode": "NULLABLE",
+        "description": "Boolean flag if ride is open"
+    },
+    {
+      "name": "last_updated",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE",
+      "description": "Timestamp of when data was extracted"
+   },
+   {
+    "name": "land",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Land where ride is located"
+  },
+  {
+    "name": "park",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Park where ride is located"
+  },
+  {
+    "name": "wait_time",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Wait time of ride"
+  }
+  ]
