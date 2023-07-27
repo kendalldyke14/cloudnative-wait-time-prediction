@@ -9,8 +9,11 @@ This project is intended to be an extension to my capstone. I'm taking it one st
 ## Architecture & Infrastructure
 
 🏗️ Terraform: Generates & maintaines all cloud resources required for this project.
-💽 Cloud Scheduler, Pub/Sub & Cloud Functions:  Ingests wait time data every 15 minutes during park hours and writes to cloud storage.
-🗄️ Cloud Storage: Acts as a external table to the BigQuery staging table.
+
+💽 Cloud Scheduler, Pub/Sub & [Cloud Function](https://github.com/kendalldyke14/cloudnative-wait-time-prediction/tree/main/queue-times-ingestion-cloud-function):  Ingests wait time data every 15 minutes during park hours and writes to cloud storage.
+
+🗄️ [Cloud Storage](https://github.com/kendalldyke14/cloudnative-wait-time-prediction/tree/main/tf-code): Acts as a external table to the BigQuery staging table.
+
 ☁️ BigQuery: This is the main structured data source for the project.
 
 
